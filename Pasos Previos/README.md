@@ -6,3 +6,10 @@ El objeto de este primer proyecto, es comprender y recordar el funcionamiento y 
 ### Materiales
 Para el montaje hemos necesitado los siguientes materiales: dos diodos led (de distinto color a poder ser), cables macho - macho, una resistencia como mínimo, una placa de prototipado donde colocar todos los materiales y la placa de Arduino donde van conectados todos los materiales.
 
+
+
+
+
+
+
+![Montaje TinkerCad](hiio)
