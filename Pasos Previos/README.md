@@ -17,18 +17,17 @@ int tiempo = 75;
 //Eva Espinosa Ortiz Robótica y Visión Artificial 4º
 void setup()
 {
-  pinMode(8, OUTPUT);
-  pinMode(7, OUTPUT);
-  
+pinMode(8, OUTPUT);
+pinMode(7, OUTPUT);
 }
 
 void loop()
 {
- digitalWrite(8, HIGH);  
-  digitalWrite(7, LOW);    
-  delay(tiempo);             
-  digitalWrite(8, LOW);   
-  digitalWrite(7, HIGH);  
-  delay(tiempo);
+digitalWrite(8, HIGH);  
+digitalWrite(7, LOW);    
+delay(tiempo);             
+digitalWrite(8, LOW);   
+digitalWrite(7, HIGH);  
+delay(tiempo);
 }
 
