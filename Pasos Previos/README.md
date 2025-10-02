@@ -12,22 +12,4 @@ Para el montaje hemos necesitado los siguientes materiales: dos diodos led (de d
 ## Programación 
 Para la programación de esta práctica, lo primero que tenemos que hacer es definir la variable tiempo, que van a ser los segundos que permanezcan encendidos los diodos LED. Una vez tenemos todas las variables definidas, que en este caso es tan sólo una, seguimos con el set up. El set up es una parte del programa que se ejecuta una única vez al iniciarse el programa. Aquí iniciamos el programa y además activamos los pines a los que los diodos están conectados. En el void loop, que se repite en bucle hasta que se termine el programa, hemos activado un pin de un diodo led y desactivado el otro. Y al réves después. Pero en el medio hemos puesto un pequeño delay que va a durar el tiempo que hayamos establecido al principio en la variable de tipo entera llamada tiempo. 
 
-int tiempo = 75;
-
-//Eva Espinosa Ortiz Robótica y Visión Artificial 4º
-void setup()
-{
-pinMode(8, OUTPUT);
-pinMode(7, OUTPUT);
-}
-
-void loop()
-{
-digitalWrite(8, HIGH);  
-digitalWrite(7, LOW);    
-delay(tiempo);             
-digitalWrite(8, LOW);   
-digitalWrite(7, HIGH);  
-delay(tiempo);
-}
-
+![Programa](Pasos Previos/imagenesproyecto1/Montaje1.png)
