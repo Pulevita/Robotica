@@ -2,7 +2,7 @@
 ## Introducción
 El objeto de este primer proyecto, es comprender y recordar el funcionamiento y la programación de la placa de Arduino. Para esto hemso utilizado un único programas: Tinkercad. Ha sido para realizar la simulación del montaje, y a su vez, el programa. 
 
-## Montaje
+## Montaje 1
 ### Materiales
 Para el montaje hemos necesitado los siguientes materiales: dos diodos led (de distinto color a poder ser), cables macho - macho, una resistencia como mínimo, una placa de prototipado donde colocar todos los materiales y la placa de Arduino donde van conectados todos los materiales.
 
@@ -18,3 +18,11 @@ Para la programación de esta práctica, lo primero que tenemos que hacer es def
 
 ## Conclusión
 Esta prueba nos ha permitido recordar las bases de la programación en Arduino, su sintaxis y además el control de un repositorio de Github. 
+
+# Prueba 2 - Incorporación de un pulsador
+## Introducción
+Durante este trimestre, vamos a realizar una serie de pequeños proyectos o pruebas para poco a poco ir conociendo la interfaz de Arduino. En esta segunda prueba, hemos partido desde el montaje anterior y le hemos añadido un pulsador. De tal manera que al pulsarlo, se encienda uno de los dos ledes y al dejar de pulsarlo al contrario. 
+
+## Montaje 2
+
+![Montaje 2.](imagenesproyecto1/programa.png) 
