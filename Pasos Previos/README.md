@@ -25,7 +25,7 @@ Durante este trimestre, vamos a realizar una serie de pequeños proyectos o prue
 
 ## Montaje 2
 
-![Montaje 2.](imagenesproyecto1/Montaje1 (1).png)
+![Montaje del pulsador.](imagenesproyecto1/Montaje1 (1).png)
 
 
 ## Programa 
