@@ -54,4 +54,6 @@ Para este circuito hemos necesitado los mismos materiales que antes:
 
 ![Montaje del potenciómetro](imagenesproyecto1/IMG_8490.JPEG)
 
+### Programa
+
 
