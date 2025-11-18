@@ -52,6 +52,6 @@ Para este circuito hemos necesitado los mismos materiales que antes:
 - La placa de Arduino.
 - Además de la reciente incorporación del potenciómetro.
 
-![Montaje del potenciómetro](imagenesproyecto1/programaint.png)
+![Montaje del potenciómetro](imagenesproyecto1/IMG_8490.JPEG)
 
 
