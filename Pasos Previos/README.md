@@ -61,3 +61,6 @@ Al principio del programa lo primero que hacemos es establecer las variables com
 Empezando con el void set up, ponemos al LED como dispositivo de salida y establecemos la comunicación con el puerto serie. Gracias a esta comunicación con el puerto serie vamos a poder ver los valores a tiempo real. 
 
 En el void loop, lo primero que hacemos, es igualar la variable de la lectura del potenciómetro a lo que lee el potenciometro conectado al pin analógico. Después convertimos el valor de la salida del led con el mapeo, de tal manera que pasamos del rango (0 - 1023) al (0-255) que es el rango de la luminosidad del LED. Mas tarde, le decimos al LED que tome el valor de la salida LED, el cual hemos establecido antes gracias a la función del mapeo. De tal manera que cuando fuera 0 el led estará totalmente apagado y conforme se vaya acercando al 255 estará más iluminado. El programa podría acabarse aquí, sin embargo, hemos optado por añadir la lectura dek monitor serie también para así saber si está fallando el potenciómetro.
+
+
+![Montaje del potenciómetro](imagenesproyecto1/IMG_8490.JPEG)
