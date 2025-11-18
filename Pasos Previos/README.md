@@ -40,10 +40,18 @@ Antes de nada, establecemos las variables de tipo entero, que en este caso son l
 ## Conclusión
 Con esta práctica hemos ampliado nuestros conocimientos de la interfaz de Arduino, TinkerCad y hemos progresado en el control del lenguaje de código C++. 
 
-## Potenciómetro y mapeo
-### Introducción
+# Prueba 3 - Potenciómetro y mapeo
+## Introducción
 Como todas las prácticas de este trimestre, partimos del anterior proyecto para ir aumentando nuestros conocimientos sobre la interfaz de Arduino y sobre algunos componentes tecnólogicos y su respectivo funcionamiento. El objetivo final de esta prueba es incorporar un potenciómetro al circuito de ledes para que así, la intensidad de los ledes o el LED vaya disminuendo o aumentado según gires el potenciómetro.
 
+## Montaje
 ### Materiales
-Para este circuito hemos necesitado los mismos materiales que antes: cables macho -macho, un diodo LED, y la placa de Arduino; además de la reciente incorporación del potenciómetro. 
+Para este circuito hemos necesitado los mismos materiales que antes: 
+- Cables macho -macho.
+- Un diodo LED.
+- La placa de Arduino.
+- Además de la reciente incorporación del potenciómetro.
+
+![Montaje del potenciómetro](imagenesproyecto1/programaint.png)
+
 
