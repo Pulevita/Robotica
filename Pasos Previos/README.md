@@ -66,3 +66,17 @@ En el void loop, lo primero que hacemos, es igualar la variable de la lectura de
 ![Montaje del potenciómetro](imagenesproyecto1/programamapeo.png)
 
 ### Conclusión
+Con este programa hemos aprendido cómo funciona el potenciómetro y cómo es su programación. Además hemos aprendido una nueva función de Arduino: el mapeo. Gracias a esta práctica hemos adquirido muchos conocimientos y hemos ampliado nuestras habilidades de programación de Arduino. 
+
+# Prueba 4 - Ultrasonidos
+## Introducción 
+El propósito de esta práctica es conocer el conexionado de un sensor de ultrasonidos y cómo programarlo de tal manera que mida distancias y estas se muestren en el monitor serie.
+
+## Montaje
+El montaje de este programa es demasiado sencillo. Únicamente consta de un sensor de ultrasonidos conectado a una placa arduino. El conexionado es el siguiente:
+1. VCC: va al 5V (proporciona la corriente)
+2. TRIGGER: va a un pin digital (es lo que emite una señal)
+3. ECHO: va a otro pin digital (es lo que recibe la señal)
+4. GND: terminal tierra.
+
+
