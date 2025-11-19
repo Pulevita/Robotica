@@ -84,7 +84,7 @@ El montaje de este programa es demasiado sencillo. Únicamente consta de un sens
 ## Programa
 El programa es muy sencillo ya que solo vamos a estar manipulando un único dispositivo. Para ello vamos a estar jugando con el monitor serie, que sería el lugar donde aparecerían las lecturas del sensor de ultrasonidos. Primero incluimos la librería del ultrasonidos. Después, como siempre, se establecen las variables que en este caso son el pin donde están conectados el TRIGGER y el ECHO del ultrasonidos; aprovechamos y establecemos que el sensor de ultrasonidos está compuestos por ese TRIGGER y ese ECHO. En el void set up lo único que hacemos es activar el puerto serie. Y en el void loop le decimos al puerto serie que mida la distancia en centímetros y que las muestre en el puerto serie. 
 
-![Montaje del sensor ultrasonidos](imagenesproyecto1/programamapeo.png)
+![Montaje del sensor ultrasonidos](imagenesproyecto1/programaultra.png)
 
 ## Conclusión 
 Con este programa, hemos recordado como utilizar el monitor serie. Esta practica nos ha ayudado a afianzar nuestros conocimientos sobre los sensores de ulrasonidos medidores de distancias, cosa que es muy útil ya que es muy relevante a la hora de hacer proyectos con Arduino.
