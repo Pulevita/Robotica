@@ -1,6 +1,8 @@
 # Ser camionero sin moverte de casa
 ## Introducción 
-En clase hemos realizado el siguiente debate, después de leer el artículo de DiarioMotor en clase. Nos hemos posicionado por grupos sobre la fiabilidad de este nuevo proyecto, el cual explica cómo se está desarrollando un sistema remoto para la conducción. En mi caso, me posiciono a favor de esta nueva iniciativa por varios argumentos:
+En clase hemos realizado el siguiente debate, después de leer el artículo de DiarioMotor [Enlace](https://www.diariomotor.com/noticia/olvida-los-coches-inteligentes-y-los-coches-autonomos-el-futuro-ya-esta-en-fase-de-pruebas-imagina-ser-taxista-conductor-de-uber-o-camionero-sin-moverte-de-casa/).
+
+en clase. Nos hemos posicionado por grupos sobre la fiabilidad de este nuevo proyecto, el cual explica cómo se está desarrollando un sistema remoto para la conducción. En mi caso, me posiciono a favor de esta nueva iniciativa por varios argumentos:
 1. Conciliación Familiar
 2. Más productividad
 3. Reducir costes
