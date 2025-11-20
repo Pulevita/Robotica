@@ -22,7 +22,7 @@ En un modelo tradicional, la compañía tendría que hacerse cargo de los tiempo
 ## Seguridad
 Por último, hablaremos de la seguridad. El equipo contrario argumentó repetidas veces que todos nuestros argumentos son lógicos pero que apenas son efectivos ya que ponen en peligro la seguridad del camión, de la mercancía, o del tráfico. 
 
-Argumentaron que al tener tantos componentes tecnológicos era mucho más fácil que fallase ante lo que nosotros argumentamos que sí, pero que por eso mismo tiene mejor supervisión y operadores digitales, los cuales identificarían el fallo y llamarían a la grua o al servicio adecuado en esa situación.
+@octocat :+1: This PR looks great - it's ready to merge! :point_right:	 Argumentaron que al tener tantos componentes tecnológicos era mucho más fácil que fallase ante lo que nosotros argumentamos que sí, pero que por eso mismo tiene mejor supervisión y operadores digitales, los cuales identificarían el fallo y llamarían a la grua o al servicio adecuado en esa situación.
 
 Otro argumento fue la calidad de las carreteras o la cobertura. A lo que respondimos con que este sistema estaba empezando a desarrollarse en ciudades como California, Texas, Arizona o Florida; por lo que sería lógico que solo se incorporase este nuevo proyecto en ciudades adaptadas para ello.
 
