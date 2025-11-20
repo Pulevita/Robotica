@@ -91,7 +91,7 @@ Con este programa, hemos recordado como utilizar el monitor serie. Esta practica
 
 # Prueba 5 - Control de luminosidad de ledes según distancia
 ## Introducción
-El propósito de esta práctica diseñar, montar y programar un sistema que permita hacer que dos diodos LED se iluminen más conforme cuanto más cerca esté un objeto al sistema diseñado.
+El propósito de esta práctica es diseñar, montar y programar un sistema que permita hacer que dos diodos LED se iluminen más conforme cuanto más cerca esté un objeto al sistema diseñado.
 
 ## Montaje
 El montaje de esta práctica consta de los siguientes materiales:
