@@ -89,4 +89,19 @@ El programa es muy sencillo ya que solo vamos a estar manipulando un único disp
 ## Conclusión 
 Con este programa, hemos recordado como utilizar el monitor serie. Esta practica nos ha ayudado a afianzar nuestros conocimientos sobre los sensores de ulrasonidos medidores de distancias, cosa que es muy útil ya que es muy relevante a la hora de hacer proyectos con Arduino.
 
+# Prueba 5 - Control de luminosidad de ledes según distancia
+## Introducción
+El propósito de esta práctica diseñar, montar y programar un sistema que permita hacer que dos diodos LED se iluminen más conforme cuanto más cerca esté un objeto al sistema diseñado.
+
+## Montaje
+El montaje de esta práctica consta de los siguientes materiales:
+- Sensor de ultrasonidos de distancia
+- Diodo LED
+- Resistencia
+- Protoboard
+- Cables macho - macho
+
+![Montaje del sensor ultrasonidos](imagenesproyecto1/programaultra.png)
+
+
 
