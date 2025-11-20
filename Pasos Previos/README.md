@@ -9,6 +9,7 @@ Para el montaje hemos necesitado los siguientes materiales: dos diodos led (de d
 <p align="center">
 <img src="imagenesproyecto1/Montaje1.png" width="7500" height="8000" />
 </p>
+
 Aquí se pueden ver todas las conexiones que han sido necesarias hacer. En este caso hemos optado por poner una única resistencia, lo que ha hecho que el montaje sea diferente al resto. Cada led tiene dos patas, la positiva y la negativa (ánodo y cátodo). Las positivas van a dos pines digitales de arduino distintos. Y las negativas están conectadas a tierra (GND). Finalmente la resistencia se puede conectar a cualquiera de las patas del diodo LED. En esta caso está conectado al negativo.
 
 ## Programación 
@@ -39,7 +40,9 @@ Para el conexionado de todos los componentes hemos utilizado cables macho - hemb
 ## Programa 
 Antes de nada, establecemos las variables de tipo entero, que en este caso son los dos ledes y el pulsador. A parte también tenemos que crear otra variable, la cual he llamado "estado pulsador" que indica si el pulsador está siendo pulsado o no, para posteriormente programarlo. En el void set up hemos establecido los ledes como dispositivos de salida y el pulsador como dispositivo de entrada e iniciamos el puerto serie. A continuación, en el void loop especificamos que la variable de estado pulsador es igual a la lectura digital del estado real del pulsador (pulsado, 1; no pulsado, 0). Si el estado del pulsador es 1, entonces el led 1 se enciende y el 2 se apaga. Y si el estado del pulsador es 0, entonces se hace a la inversa y además en el puerto serie, indica que el pulsador no está siendo pulsado (No pulsado). 
 
-![Programa con pulsador](imagenesproyecto1/programaint.png)
+<p align="center">
+<img src="imagenesproyecto1/programaint.png" width="700" height="5000" />
+</p>
 
 ## Conclusión
 Con esta práctica hemos ampliado nuestros conocimientos de la interfaz de Arduino, TinkerCad y hemos progresado en el control del lenguaje de código C++. 
@@ -56,7 +59,10 @@ Para este circuito hemos necesitado los mismos materiales que antes:
 - La placa de Arduino.
 - Además de la reciente incorporación del potenciómetro.
 
-![Montaje del potenciómetro](imagenesproyecto1/IMG_8490.JPEG)
+<p align="center">
+<img src="imagenesproyecto1/IMG_8490.JPEG" width="7500" height="8000" />
+</p>
+
 
 ### Programa
 
@@ -67,7 +73,9 @@ Para este circuito hemos necesitado los mismos materiales que antes:
 :point_right:	En el void loop, lo primero que hacemos, es igualar la variable de la lectura del potenciómetro a lo que lee el potenciometro conectado al pin analógico. Después convertimos el valor de la salida del led con el mapeo, de tal manera que pasamos del rango (0 - 1023) al (0-255) que es el rango de la luminosidad del LED. Mas tarde, le decimos al LED que tome el valor de la salida LED, el cual hemos establecido antes gracias a la función del mapeo. De tal manera que cuando fuera 0 el led estará totalmente apagado y conforme se vaya acercando al 255 estará más iluminado. El programa podría acabarse aquí, sin embargo, hemos optado por añadir la lectura dek monitor serie también para así saber si está fallando el potenciómetro.
 
 
-![Montaje del potenciómetro](imagenesproyecto1/programamapeo.png)
+<p align="center">
+<img src="imagenesproyecto1/programamapeo.png" width="700" height="5000" />
+</p>
 
 ### Conclusión
 Con este programa hemos aprendido cómo funciona el potenciómetro y cómo es su programación. Además hemos aprendido una nueva función de Arduino: el mapeo. Gracias a esta práctica hemos adquirido muchos conocimientos y hemos ampliado nuestras habilidades de programación de Arduino. 
@@ -83,12 +91,18 @@ El montaje de este programa es demasiado sencillo. Únicamente consta de un sens
 3. ECHO: va a otro pin digital (es lo que recibe la señal)
 4. GND: terminal tierra.
 
-![Montaje del sensor ultrasonidos](imagenesproyecto1/Ultrasonidos.png)
+<p align="center">
+<img src="imagenesproyecto1/Ultrasonidos.png" width="7500" height="8000" />
+</p>
+
 
 ## Programa
 El programa es muy sencillo ya que solo vamos a estar manipulando un único dispositivo. Para ello vamos a estar jugando con el monitor serie, que sería el lugar donde aparecerían las lecturas del sensor de ultrasonidos. Primero incluimos la librería del ultrasonidos. Después, como siempre, se establecen las variables que en este caso son el pin donde están conectados el TRIGGER y el ECHO del ultrasonidos; aprovechamos y establecemos que el sensor de ultrasonidos está compuestos por ese TRIGGER y ese ECHO. En el void set up lo único que hacemos es activar el puerto serie. Y en el void loop le decimos al puerto serie que mida la distancia en centímetros y que las muestre en el puerto serie. 
 
-![Montaje del sensor ultrasonidos](imagenesproyecto1/programaultra.png)
+<p align="center">
+<img src="imagenesproyecto1/programaultra.png" width="700" height="5000" />
+</p>
+
 
 ## Conclusión 
 Con este programa, hemos recordado como utilizar el monitor serie. Esta practica nos ha ayudado a afianzar nuestros conocimientos sobre los sensores de ulrasonidos medidores de distancias, cosa que es muy útil ya que es muy relevante a la hora de hacer proyectos con Arduino.
@@ -105,7 +119,10 @@ El montaje de esta práctica consta de los siguientes materiales:
 - Protoboard
 - Cables macho - macho
 
-![Montaje final](imagenesproyecto1/ultimomontaje.jpg)
+<p align="center">
+<img src="imagenesproyecto1/ultimomontaje.jpg" width="7500" height="8000" />
+</p>
+
 
 ## Programa
 :point_right:	Antes de empezar, debemos tener instalada la librería de ultrasonidos. Después definimos todas las variables de tipo entero: en este caso establecemos en que pin está situado el LED y la variable de la distancia. También aclaramos en que pin está conectados el trigger y el echo del ultrasonidos, y que esos dos pines en conjunto que conforman el ultrasonidos. 
@@ -118,7 +135,9 @@ El montaje de esta práctica consta de los siguientes materiales:
 
 Al final del todo ponemos un delay para dejarle tiempo a la placa de procesar todo. 
 
-![Programa final](imagenesproyecto1/luminosidadprogram.png)
+<p align="center">
+<img src="imagenesproyecto1/luminosidadprogram.png" width="700" height="5000" />
+</p>
 
 ## Conclusión
 Con esta nueva práctica hemos desbloqueado más funciones del programa de Arduino como son los condicionales, y hemos aplicado nuevas operaciones matemáticas a parte de juntar todos los dispositivos de las otras prácticas, y programarlos en conjunto.
