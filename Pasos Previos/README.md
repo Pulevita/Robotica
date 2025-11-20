@@ -95,13 +95,25 @@ El propósito de esta práctica diseñar, montar y programar un sistema que perm
 
 ## Montaje
 El montaje de esta práctica consta de los siguientes materiales:
-- Sensor de ultrasonidos de distancia
+- Sensor de ultrasonidos medidor de distancia
 - Diodo LED
 - Resistencia
 - Protoboard
 - Cables macho - macho
 
-![Montaje del sensor ultrasonidos](imagenesproyecto1/programaultra.png)
+![Montaje final](imagenesproyecto1/ultimomontaje.jpg)
 
+## Programa
+Antes de empezar, debemos tener instalada la librería de ultrasonidos. Después definimos todas las variables de tipo entero: en este caso establecemos en que pin está situado el LED y la variable de la distancia. También aclaramos en que pin está conectados el trigger y el echo del ultrasonidos, y que esos dos pines en conjunto que conforman el ultrasonidos. 
+
+Lo único que hacemos en el void set up es establecer el diodo LED como dispositivo de salida.
+
+En el void loop, lo primero que hacemos es decir que la variable distancia es la lectura del sensor de ultrasonidos en centímetros. Ahora empezamos con los condicionales: 
+- El primero es que si la distancia es mayor que 255 entonces se enciende el led.
+- El segundo es que si la distancia es menor o igual que 255 entonces ek led, según la distancia su brillo es mayor o menor. Esto lo hemos conseguido gracias a la operación matemática de 255 - distancia.
+
+Al final del todo ponemos un delay para dejarle tiempo a la placa de procesar todo. 
+
+![Programa final](imagenesproyecto1/ultimomontaje.jpg)
 
 
