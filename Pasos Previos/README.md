@@ -8,7 +8,9 @@ Para el montaje hemos necesitado los siguientes materiales: dos diodos led (de d
 
 
 ![Montaje TinkerCad](imagenesproyecto1/Montaje1.png)
-
+<p align="center">
+<img src="imagenesproyecto1/Montaje1.png" width="8000" height="8000" />
+</p>
 Aquí se pueden ver todas las conexiones que han sido necesarias hacer. En este caso hemos optado por poner una única resistencia, lo que ha hecho que el montaje sea diferente al resto. Cada led tiene dos patas, la positiva y la negativa (ánodo y cátodo). Las positivas van a dos pines digitales de arduino distintos. Y las negativas están conectadas a tierra (GND). Finalmente la resistencia se puede conectar a cualquiera de las patas del diodo LED. En esta caso está conectado al negativo.
 
 ## Programación 
