@@ -29,7 +29,7 @@ Para este montaje hemos necesitado los mismos materiales que la práctica anteri
 
 ![Montaje del pulsador.](imagenesproyecto1/Montaje2.png)
 
-Para el cone4xionado de todos los componentes hemos utilizado cables macho - hembra. Ademas hemos aprovechado el anterior montaje para a partir de este seguir con la incorporación del pulsador. Es por esto que lo único nuevo ha sido conectar el pulsador. Uno de los conectores del pulsador va unido al 5V, el otro al GND y, el último, a un pin digital.
+Para el conexionado de todos los componentes hemos utilizado cables macho - hembra. Ademas hemos aprovechado el anterior montaje para a partir de este seguir con la incorporación del pulsador. Es por esto que lo único nuevo ha sido conectar el pulsador. Uno de los conectores del pulsador va unido al 5V, el otro al GND y, el último, a un pin digital.
 
 
 ## Programa 
@@ -56,11 +56,11 @@ Para este circuito hemos necesitado los mismos materiales que antes:
 
 ### Programa
 
-Al principio del programa lo primero que hacemos es establecer las variables como es ya de costumbre. Establecemos el pin del LED y el pin del potenciómetro, el cuál está conectado en un pin analógico; y además creamos la variable de lo que lee el potenciómetro y del valor que se guardará en el mapeado. 
+:writing_hand:	Al principio del programa lo primero que hacemos es establecer las variables como es ya de costumbre. Establecemos el pin del LED y el pin del potenciómetro, el cuál está conectado en un pin analógico; y además creamos la variable de lo que lee el potenciómetro y del valor que se guardará en el mapeado. 
 
-Empezando con el void set up, ponemos al LED como dispositivo de salida y establecemos la comunicación con el puerto serie. Gracias a esta comunicación con el puerto serie vamos a poder ver los valores a tiempo real. 
+:point_right:	Empezando con el void set up, ponemos al LED como dispositivo de salida y establecemos la comunicación con el puerto serie. Gracias a esta comunicación con el puerto serie vamos a poder ver los valores a tiempo real. :eye:	
 
-En el void loop, lo primero que hacemos, es igualar la variable de la lectura del potenciómetro a lo que lee el potenciometro conectado al pin analógico. Después convertimos el valor de la salida del led con el mapeo, de tal manera que pasamos del rango (0 - 1023) al (0-255) que es el rango de la luminosidad del LED. Mas tarde, le decimos al LED que tome el valor de la salida LED, el cual hemos establecido antes gracias a la función del mapeo. De tal manera que cuando fuera 0 el led estará totalmente apagado y conforme se vaya acercando al 255 estará más iluminado. El programa podría acabarse aquí, sin embargo, hemos optado por añadir la lectura dek monitor serie también para así saber si está fallando el potenciómetro.
+:point_right:	En el void loop, lo primero que hacemos, es igualar la variable de la lectura del potenciómetro a lo que lee el potenciometro conectado al pin analógico. Después convertimos el valor de la salida del led con el mapeo, de tal manera que pasamos del rango (0 - 1023) al (0-255) que es el rango de la luminosidad del LED. Mas tarde, le decimos al LED que tome el valor de la salida LED, el cual hemos establecido antes gracias a la función del mapeo. De tal manera que cuando fuera 0 el led estará totalmente apagado y conforme se vaya acercando al 255 estará más iluminado. El programa podría acabarse aquí, sin embargo, hemos optado por añadir la lectura dek monitor serie también para así saber si está fallando el potenciómetro.
 
 
 ![Montaje del potenciómetro](imagenesproyecto1/programamapeo.png)
@@ -104,11 +104,11 @@ El montaje de esta práctica consta de los siguientes materiales:
 ![Montaje final](imagenesproyecto1/ultimomontaje.jpg)
 
 ## Programa
-Antes de empezar, debemos tener instalada la librería de ultrasonidos. Después definimos todas las variables de tipo entero: en este caso establecemos en que pin está situado el LED y la variable de la distancia. También aclaramos en que pin está conectados el trigger y el echo del ultrasonidos, y que esos dos pines en conjunto que conforman el ultrasonidos. 
+:point_right:	Antes de empezar, debemos tener instalada la librería de ultrasonidos. Después definimos todas las variables de tipo entero: en este caso establecemos en que pin está situado el LED y la variable de la distancia. También aclaramos en que pin está conectados el trigger y el echo del ultrasonidos, y que esos dos pines en conjunto que conforman el ultrasonidos. 
 
-Lo único que hacemos en el void set up es establecer el diodo LED como dispositivo de salida.
+:point_right:	Lo único que hacemos en el void set up es establecer el diodo LED como dispositivo de salida.
 
-En el void loop, lo primero que hacemos es decir que la variable distancia es la lectura del sensor de ultrasonidos en centímetros. Ahora empezamos con los condicionales: 
+:point_right:	En el void loop, lo primero que hacemos es decir que la variable distancia es la lectura del sensor de ultrasonidos en centímetros. Ahora empezamos con los condicionales: 
 - El primero es que si la distancia es mayor que 255 entonces se enciende el led.
 - El segundo es que si la distancia es menor o igual que 255 entonces ek led, según la distancia su brillo es mayor o menor. Esto lo hemos conseguido gracias a la operación matemática de 255 - distancia.
 
