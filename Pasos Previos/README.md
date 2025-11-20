@@ -15,7 +15,7 @@ Aquí se pueden ver todas las conexiones que han sido necesarias hacer. En este 
 Para la programación de esta práctica, lo primero que tenemos que hacer es definir la variable tiempo, que van a ser los segundos que permanezcan encendidos los diodos LED. Una vez tenemos todas las variables definidas, que en este caso es tan sólo una, seguimos con el set up. El set up es una parte del programa que se ejecuta una única vez al iniciarse el programa. Aquí iniciamos el programa y además activamos los pines a los que los diodos están conectados. En el void loop, que se repite en bucle hasta que se termine el programa, hemos activado un pin de un diodo led y desactivado el otro. Y al réves después. Pero en el medio hemos puesto un pequeño delay que va a durar el tiempo que hayamos establecido al principio en la variable de tipo entera llamada tiempo. 
 
 <p align="center">
-<img src="imagenesproyecto1/programa.png" width="5000" height="8000" />
+<img src="imagenesproyecto1/programa.png" width="700" height="5000" />
 </p>
 
 ## Conclusión
@@ -29,7 +29,9 @@ Durante este trimestre, vamos a realizar una serie de pequeños proyectos o prue
 ### Materiales
 Para este montaje hemos necesitado los mismos materiales que la práctica anterior. Sin embargo, le hemos añadido un pulsador y además ha sido necesario la incorporación de unos cuantos cables macho - hembra más.
 
-![Montaje del pulsador.](imagenesproyecto1/Montaje2.png)
+<p align="center">
+<img src="imagenesproyecto1/Montaje2.png" width="7500" height="8000" />
+</p>
 
 Para el conexionado de todos los componentes hemos utilizado cables macho - hembra. Ademas hemos aprovechado el anterior montaje para a partir de este seguir con la incorporación del pulsador. Es por esto que lo único nuevo ha sido conectar el pulsador. Uno de los conectores del pulsador va unido al 5V, el otro al GND y, el último, a un pin digital.
 
