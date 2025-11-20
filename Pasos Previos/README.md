@@ -1,4 +1,4 @@
-# Pasos Previos - Realización de un doble intermitente.
+  # Pasos Previos - Realización de un doble intermitente.
 ## Introducción
 El objeto de este primer proyecto, es comprender y recordar el funcionamiento y la programación de la placa de Arduino. Para esto hemso utilizado un único programas: Tinkercad. Ha sido para realizar la simulación del montaje, y a su vez, el programa. 
 
@@ -114,6 +114,9 @@ En el void loop, lo primero que hacemos es decir que la variable distancia es la
 
 Al final del todo ponemos un delay para dejarle tiempo a la placa de procesar todo. 
 
-![Programa final](imagenesproyecto1/ultimomontaje.jpg)
+![Programa final](imagenesproyecto1/luminosidadprogram.png)
+
+## Conclusión
+
 
 
