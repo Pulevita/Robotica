@@ -142,3 +142,5 @@ Al final del todo ponemos un delay para dejarle tiempo a la placa de procesar to
 ## Conclusión
 Con esta nueva práctica hemos desbloqueado más funciones del programa de Arduino como son los condicionales, y hemos aplicado nuevas operaciones matemáticas a parte de juntar todos los dispositivos de las otras prácticas, y programarlos en conjunto.
 
+[Resultado Final](https://youtu.be/HC4UBLc85G0)
+
