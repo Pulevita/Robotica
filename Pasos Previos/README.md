@@ -150,11 +150,12 @@ En esta última prueba vamos a incorporar todo lo anteriormente aprendido. Vamos
 
 ## Montaje 6
 Para el montaje de esta prueba necesitaremos un potenciómetro y un servomotor. El montaje es muy sencillo al igual que todos los montajes de las pruebas anteriores.
+
 ### Servomotor
 Como ya hemos aprendido el servomotor es un motor, como su propio nombre indica, que en su interior contiene una serie de ejes que hacen que se mueva. Hay varios tipos pero el que hemos utilizado funciona mediante posición. Hay algunos que solo se mueven hasta 90º y otros hasta 180º. En nuestro caso hemos utilizado el de 180º para tener más margen de giro.
+
 ### Potenciómetro
-
-
+Es un dispositivo mediante el cual podemos variar la resistencia interna del propio dispositivo. Tiene dos pines comunes, y otro de control que es el que vamos modificando nosotros.
 
 [![](https://img.youtube.com/vi/OYDffc8x5OQ/0.jpg)](https://www.youtube.com/watch?v=OYDffc8x5OQ)
 
