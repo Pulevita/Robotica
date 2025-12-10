@@ -144,3 +144,25 @@ Con esta nueva práctica hemos desbloqueado más funciones del programa de Ardui
 
 [Resultado Final](https://youtu.be/HC4UBLc85G0)
 
+# Prueba 5 - Control de un servomotor con potenciómetro
+## Introducción
+En esta última prueba vamos a incorporar todo lo anteriormente aprendido. Vamos a combinar los conocimientos adquiridos sobre montaje y programación para esta prueba.
+
+## Montaje 
+Para el montaje de esta prueba necesitaremos un potenciómetro y un servomotor. El montaje es muy sencillo al igual que todos los montajes de las pruebas anteriores.
+### Servomotor
+Como ya hemos aprendido el servomotor es un motor, como su propio nombre indica, que en su interior contiene una serie de ejes que hacen que se mueva. Hay varios tipos pero el que hemos utilizado funciona mediante posición. Hay algunos que solo se mueven hasta 90º y otros hasta 180º. En nuestro caso hemos utilizado el de 180º para tener más margen de giro.
+### Potenciómetro
+
+
+
+
+
+<p align="center">
+<img src="imagenesproyecto1/luminosidadprogram.png" width="700" height="5000" />
+</p>
+
+
+
+
+
