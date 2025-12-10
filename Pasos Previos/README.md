@@ -140,15 +140,15 @@ Al final del todo ponemos un delay para dejarle tiempo a la placa de procesar to
 </p>
 
 ## Conclusión
-Con esta nueva práctica hemos desbloqueado más funciones del programa de Arduino como son los condicionales, y hemos aplicado nuevas operaciones matemáticas a parte de juntar todos los dispositivos de las otras prácticas, y programarlos en conjunto.
+Con esta nueva práctica hemos desbloqueado más funciones del programa de Arduino como son los condicionales, y hemos aplicado nuevas operaciones matemáticas a parte de juntar todos los dispositivos de las otras prácticas, y programarlos en conjunto. El objetivo de esta prueba es que según vayamos moviendo el potenciómetro, gire el servomotor hacia un lado o hacia otro.
 
-[Resultado Final](https://youtu.be/HC4UBLc85G0)
+[![](https://img.youtube.com/vi/HC4UBLc85G0/0.jpg)](https://www.youtube.com/watch?v=HC4UBLc85G0)
 
-# Prueba 5 - Control de un servomotor con potenciómetro
+# Prueba 6 - Control de un servomotor con potenciómetro
 ## Introducción
 En esta última prueba vamos a incorporar todo lo anteriormente aprendido. Vamos a combinar los conocimientos adquiridos sobre montaje y programación para esta prueba.
 
-## Montaje 
+## Montaje 6
 Para el montaje de esta prueba necesitaremos un potenciómetro y un servomotor. El montaje es muy sencillo al igual que todos los montajes de las pruebas anteriores.
 ### Servomotor
 Como ya hemos aprendido el servomotor es un motor, como su propio nombre indica, que en su interior contiene una serie de ejes que hacen que se mueva. Hay varios tipos pero el que hemos utilizado funciona mediante posición. Hay algunos que solo se mueven hasta 90º y otros hasta 180º. En nuestro caso hemos utilizado el de 180º para tener más margen de giro.
@@ -156,11 +156,25 @@ Como ya hemos aprendido el servomotor es un motor, como su propio nombre indica,
 
 
 
+[![](https://img.youtube.com/vi/OYDffc8x5OQ/0.jpg)](https://www.youtube.com/watch?v=OYDffc8x5OQ)
 
 
+## Programación
 <p align="center">
-<img src="imagenesproyecto1/luminosidadprogram.png" width="700" height="5000" />
+<img src="imagenesproyecto1/ultimaprueba.png" width="700" height="5000" />
 </p>
+
+:point_right: Antes de empezar a programar como tal, incluimos la variable del servo y utilizamos la variable Servo para nombrar al servo. Además le decimos que siempre va a estar en el pin 9, mediante una variable de tipo entera constante. Esto lo hacemos para que en el caso de cambiar de pin solo haya que hacerlo arriba del programa en donde está la variable en vez de ir revisándolo parte por parte. Hacemos lo mismo con el pin analógico del potenciómetro, y establecemos otras dos variables más: creamos la variable posición que nos va a indicar en qué posición está el servomotor y la de lectura del potenciómetro que nos va a indicar que valores va a ir tomando el potenciómetro. 
+
+:point_right: En el set up establecemos que el servo es un dispositivo de salida, y establecemos que el servo está conectado en la variable pinservo (por lo tanto estará conectado en el pin que establezcamos al principio en la variable). 
+
+:point_right: En el void loop, decimos que la lectura del potenciómetro equivale a la lectura analógica que tiene asociado el pin del potenciómetro. Además hacemos un mapeo mediante el cual convertimos los valores del potenciómetro en los del servo. Por lo tanto la variable posición del servo tomaría ese valor. Y ya por último, le decimos al servo que se ponga en la posición que diga la variable.
+
+## Conclusión 
+Mediante esta prueba hemos finalizado los pasos previos de Arduino. Hemos adquirido una serie de conocimientos básicos para el desarrollo de próximos proyectos más largos y complejos.
+
+
+
 
 
 
