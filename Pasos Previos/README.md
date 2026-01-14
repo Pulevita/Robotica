@@ -186,7 +186,7 @@ El sensor de ultrasonidos tiene 4 pines a los que hay que conectarlo: un GND, un
 Por último, el servomotor hay que conectarlo a 3 pines: un GND, uno para la alimentación (5V), y otro a un pin digital el cual nos va a permitir tener el control de la posición del servo. 
 
 <p align="center">
-<img src="imagenesproyecto1/ultimomontaje.jpg" width="7500" height="8000" />
+<img src="imagenesproyecto1/IMG_9403.jpeg" width="7500" height="8000" />
 </p>
 
 ## Programación
