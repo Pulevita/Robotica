@@ -174,6 +174,23 @@ Es un dispositivo mediante el cual podemos variar la resistencia interna del pro
 ## Conclusión 
 Mediante esta prueba hemos finalizado los pasos previos de Arduino. Hemos adquirido una serie de conocimientos básicos para el desarrollo de próximos proyectos más largos y complejos.
 
+# Prueba 7 - Control de la posición de un servo con un sensor de ultrasonidos
+## Objetivo
+El objetivo de esta prueba es el de afianzar todos los conceptos necesarios para la posterior creación de un coche robot autónomo el cual sea capaz de recorrer un circuito sin chocarse. Para eso hemos necesitado jugar con la distancia y un servomotor.
+
+## Montaje
+Este montaje es muy sencillo ya que consta de muy pocos componentes, es decir, de un servomotor y un sensor de ultrasonidos que será lo que medirá la distancia. 
+
+El sensor de ultrasonidos tiene 4 pines a los que hay que conectarlo: un GND, uno para la alimentación (5V), y un trigger que será el que proyecta las señales ultrasónicas y el echo que será el que las reciba. Estos últimos van conectados a pines digitales. Dependiendo del tiempo que tarde en recibir esas señales, calculará la distancia.
+
+Por último, el servomotor hay que conectarlo a 3 pines: un GND, uno para la alimentación (5V), y otro a un pin digital el cual nos va a permitir tener el control de la posición del servo. 
+
+<p align="center">
+<img src="imagenesproyecto1/ultimomontaje.jpg" width="7500" height="8000" />
+</p>
+
+## Programación
+
 
 
 
