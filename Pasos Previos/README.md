@@ -176,27 +176,27 @@ Mediante esta prueba hemos finalizado los pasos previos de Arduino. Hemos adquir
 
 # Prueba 7 - Control de la posición de un servo con un sensor de ultrasonidos
 ## Objetivo
-El objetivo de esta prueba es el de afianzar todos los conceptos necesarios para la posterior creación de un coche robot autónomo el cual sea capaz de recorrer un circuito sin chocarse. Para eso hemos necesitado jugar con la distancia y un servomotor.
+:point_right: El objetivo de esta prueba es el de afianzar todos los conceptos necesarios para la posterior creación de un coche robot autónomo el cual sea capaz de recorrer un circuito sin chocarse. Para eso hemos necesitado jugar con la distancia y un servomotor.
 
 ## Montaje
-Este montaje es muy sencillo ya que consta de muy pocos componentes, es decir, de un servomotor y un sensor de ultrasonidos que será lo que medirá la distancia. 
+:point_right: Este montaje es muy sencillo ya que consta de muy pocos componentes, es decir, de un servomotor y un sensor de ultrasonidos que será lo que medirá la distancia. 
 
-El sensor de ultrasonidos tiene 4 pines a los que hay que conectarlo: un GND, uno para la alimentación (5V), y un trigger que será el que proyecta las señales ultrasónicas y el echo que será el que las reciba. Estos últimos van conectados a pines digitales. Dependiendo del tiempo que tarde en recibir esas señales, calculará la distancia.
+:point_right: El sensor de ultrasonidos tiene 4 pines a los que hay que conectarlo: un GND, uno para la alimentación (5V), y un trigger que será el que proyecta las señales ultrasónicas y el echo que será el que las reciba. Estos últimos van conectados a pines digitales. Dependiendo del tiempo que tarde en recibir esas señales, calculará la distancia.
 
-Por último, el servomotor hay que conectarlo a 3 pines: un GND, uno para la alimentación (5V), y otro a un pin digital el cual nos va a permitir tener el control de la posición del servo. 
+:point_right: Por último, el servomotor hay que conectarlo a 3 pines: un GND, uno para la alimentación (5V), y otro a un pin digital el cual nos va a permitir tener el control de la posición del servo. 
 
 <p align="center">
 <img src="imagenesproyecto1/IMG_9403.jpeg" width="7500" height="8000" />
 </p>
 
 ## Programación
-Para este programa, apenas hay que incluir nada nuevo que no hubiese sido explicado antes. Para comenzar, incluimos todas las librerías necesarias: la del servo y la del ultrasonidos. Además nombramos el servo, y establecemos las siguientes variables. La primera es para que no sea necesario cambiar todo el rato el pin en el que está el servo, es decir, creamos una variable de tipo constante en la cual establecemos que el pin del servo siempre va a ser el 6. Creamos otra que sea la posición del servo y otra para la distancia que midan los sensores; que en este caso se llama lecturaultrasonidos. Estas dos últimas van a ser de tipo entero. Y por último, nombramos el sensor de ultrasonidos: decimos en qué pines están conectados su trigger y su echo. 
+:point_right: Para este programa, apenas hay que incluir nada nuevo que no hubiese sido explicado antes. Para comenzar, incluimos todas las librerías necesarias: la del servo y la del ultrasonidos. Además nombramos el servo, y establecemos las siguientes variables. La primera es para que no sea necesario cambiar todo el rato el pin en el que está el servo, es decir, creamos una variable de tipo constante en la cual establecemos que el pin del servo siempre va a ser el 6. Creamos otra que sea la posición del servo y otra para la distancia que midan los sensores; que en este caso se llama lecturaultrasonidos. Estas dos últimas van a ser de tipo entero. Y por último, nombramos el sensor de ultrasonidos: decimos en qué pines están conectados su trigger y su echo. 
 
-En el void set up, iniciamos el puerto serie para la posterior lectura del sensor y decimos que el servo está conectado a la variable pinservo, es decir, al pin 6.
+:point_right: En el void set up, iniciamos el puerto serie para la posterior lectura del sensor y decimos que el servo está conectado a la variable pinservo, es decir, al pin 6.
 
-En el void loop, igualamos la variable lecturaultrasonidos, a la lectura del sensor en centímetros. Por lo tanto, la posición del servomotor es igual al mapeo de la distancia y los valores del servo. De tal manera que el sensor mide desde 2cm hasta 100cm y el servo desde 0 grados hasta 180 grados. Por último, establecemos que el servo se posicione en esa posición.
+:point_right: En el void loop, igualamos la variable lecturaultrasonidos, a la lectura del sensor en centímetros. Por lo tanto, la posición del servomotor es igual al mapeo de la distancia y los valores del servo. De tal manera que el sensor mide desde 2cm hasta 100cm y el servo desde 0 grados hasta 180 grados. Por último, establecemos que el servo se posicione en esa posición.
 
-A parte, para la previa visualización de los valores mínimos y máximos del sensor, hemos tenido que añadir una parte la cual nos permitiera ver esos valores a tiempo real mediante el monitor serie.
+:point_right: A parte, para la previa visualización de los valores mínimos y máximos del sensor, hemos tenido que añadir una parte la cual nos permitiera ver esos valores a tiempo real mediante el monitor serie.
 
 
 <p align="center">
@@ -204,7 +204,7 @@ A parte, para la previa visualización de los valores mínimos y máximos del se
 </p>
 
 ## Conclusión
-Esta práctica ha resultado muy útil para terminar de afianzar todos estos conceptos necesarios para la próxima práctica, ya que esta va a ser más larga y compleja. 
+:point_right: Esta práctica ha resultado muy útil para terminar de afianzar todos estos conceptos necesarios para la próxima práctica, ya que esta va a ser más larga y compleja. 
 
 
 
