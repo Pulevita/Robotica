@@ -190,6 +190,14 @@ Por último, el servomotor hay que conectarlo a 3 pines: un GND, uno para la ali
 </p>
 
 ## Programación
+Para este programa, apenas hay que incluir nada nuevo que no hubiese sido explicado antes. Para comenzar, incluimos todas las librerías necesarias: la del servo y la del ultrasonidos. Además nombramos el servo, y establecemos las siguientes variables. La primera es para que no sea necesario cambiar todo el rato el pin en el que está el servo, es decir, creamos una variable de tipo constante en la cual establecemos que el pin del servo siempre va a ser el 6. Creamos otra que sea la posición del servo y otra para la distancia que midan los sensores; que en este caso se llama lecturaultrasonidos. Estas dos últimas van a ser de tipo entero. Y por último, nombramos el sensor de ultrasonidos: decimos en qué pines están conectados su trigger y su echo. 
+
+En el void set up, iniciamos el puerto serie para la posterior lectura del sensor y decimos que el servo está conectado a la variable pinservo, es decir, al pin 6.
+
+En el void loop, igualamos la variable lecturaultrasonidos, a la lectura del sensor en centímetros. Por lo tanto, la posición del servomotor es igual al mapeo de la distancia y los valores del servo. De tal manera que el sensor mide desde 2cm hasta 100cm y el servo desde 0 grados hasta 180 grados. Por último, establecemos que el servo se posicione en esa posición.
+
+A parte, para la previa visualización de los valores mínimos y máximos del sensor, hemos tenido que añadir una parte la cual nos permitiera ver esos valores a tiempo real mediante el monitor serie.
+
 
 
 
