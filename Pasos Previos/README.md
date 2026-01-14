@@ -199,7 +199,12 @@ En el void loop, igualamos la variable lecturaultrasonidos, a la lectura del sen
 A parte, para la previa visualización de los valores mínimos y máximos del sensor, hemos tenido que añadir una parte la cual nos permitiera ver esos valores a tiempo real mediante el monitor serie.
 
 
+<p align="center">
+<img src="imagenesproyecto1/programa7.png" width="700" height="5000" />
+</p>
 
+## Conclusión
+Esta práctica ha resultado muy útil para terminar de afianzar todos estos conceptos necesarios para la próxima práctica, ya que esta va a ser más larga y compleja. 
 
 
 
