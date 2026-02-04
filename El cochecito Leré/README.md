@@ -29,5 +29,5 @@ Antes de empezar a construir el chasis, tuvimos que pensar en la forma y en todo
 Para el previo diseño del coche, hemos utilizado la interfaz de TinkerCad, para posteriormente descargar el diseño y poder imprimirlo en la impresora 3D. 
 
 <p align="center">
-<img src="imagenes/programa.png" width="700" height="5000" />
+<img src="imagenes 2/Base.png" width="700" height="5000" />
 </p>
