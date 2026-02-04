@@ -1,5 +1,5 @@
 
-# El cochecito Leré
+# WALL-E
 
 ## Condiciones Previas
 1. Tamaño limitado del robot: 30cm x 30cm
@@ -31,3 +31,6 @@ Para el previo diseño del coche, hemos utilizado la interfaz de TinkerCad, para
 <p align="center">
 <img src="imagenes 2/Base.png" width="700" height="5000" />
 </p>
+
+Esta constituye la base del robot, sobre la cual se irán apilando las demás plataformas mediante una serie de pasadores atornillados a la estructura. Estas placas serán fijadas con tornillos y servirán como soporte para la instalación del resto de los componentes necesarios.
+
